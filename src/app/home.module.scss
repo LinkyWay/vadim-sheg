@@ -1,0 +1,34 @@
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background {
+  z-index: -1;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(40%)
+}
+
+.dataContainer {
+  position: relative;
+}
+
+.subtitle {
+  position: absolute;
+  bottom: 10rem;
+  right: -5rem;
+  z-index: 1;
+}
+
+.title {
+  font-size: 8rem;
+  text-align: center;
+  font-weight: 700;
+}
